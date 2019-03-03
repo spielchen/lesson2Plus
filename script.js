@@ -10,7 +10,7 @@ console.log('%c%s', 'font: italic bold 1.3em/1 Arial', week[5]);
 console.log('%c%s', 'font: bold 1.3em/1 Arial', week[6]);
 
 var numbers = ["3343", "43434", "5646", "1231", "675354", "6777", "7777", "3333"];
-
+console.log(numbers);
 for (i=0; i<numbers.length; i++){
 	var firstNum = numbers[i].charAt(0);
 	if( firstNum=="3"){
